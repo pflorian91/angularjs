@@ -1,0 +1,27 @@
+/*
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es6",
+    "module": "es6",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
+*/
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "files": [
+    "index.ts",
+    "globals.d.ts"
+  ]
+}

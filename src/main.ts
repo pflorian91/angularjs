@@ -3,9 +3,9 @@
  */
 import { NgModule } from 'angular-ts-decorators';
 import { AppComponent } from './app.component';
+import { FoodModule } from './food/food.module';
 /*
  import { routes } from './app.routes';
- import { TasksModule } from './components/tasks.module';
  */
 
 export interface IComponentState extends ng.ui.IState {
@@ -17,9 +17,11 @@ export interface IComponentState extends ng.ui.IState {
 @NgModule({
 	name: 'AppModule',
 	imports: [
-		/*'ui.router',
-		 'ngSanitize',
-		 TasksModule*/
+		/*
+			'ui.router',
+		    'ngSanitize',
+		 */
+		FoodModule
 	],
 	declarations: [
 		AppComponent

@@ -1,10 +1,11 @@
 import { Component } from 'angular-ts-decorators';
+import { IComponentController } from 'angular';
 
 @Component({
 	selector: 'app',
-	template: 'Hi there'
-	// template: `<comment-list></comment-list>`
+	templateUrl: 'app.component.html'
 })
 
-export class AppComponent {
+export class AppComponent implements IComponentController {
+
 }

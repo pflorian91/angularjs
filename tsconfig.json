@@ -13,7 +13,7 @@
     ]
   },
   "files": [
-    "src/bootstrap.ts"
+    "src/main.ts"
   ],
   "exclude": [
     "node_modules"

@@ -57,7 +57,7 @@ module.exports = function ( env ) {
         devtool: isProd ? 'source-map' : 'eval',
         context: sourcePath,
         entry:   {
-            main:   sourcePath + '/bootstrap.ts',
+            main:   sourcePath + '/main.ts',
             vendor: [
                 'angular/angular.js',
                 'angular-ui-router/release/angular-ui-router.js',
